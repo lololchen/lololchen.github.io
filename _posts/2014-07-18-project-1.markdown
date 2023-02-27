@@ -6,6 +6,6 @@ img: cabin.png
 alt: image-alt
 project-date: April 2022
 client: Start Bootstrap
-category: Big Project
+category: Web Development
 description: Title: Modeling, Simulation, and Control of an Lower Limb Exoskeleton for Human Walking Augmentation <br><br> - Developed a human locomotion model based on multibody dynamics in Simulink/Simscape, which resulted a natural walking motion and provide a simulation framework for human-exoskeleton interaction. <br> - Designed a force control method with a Human Joint Torque Estimator and Exoskeleton Transparency Controller for active walking assistance, which shown the effective augmentation in the simulation.
 ---
