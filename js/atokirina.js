@@ -63,6 +63,10 @@ var setting = {
 	windVecY: -0.3,
 	windWdr: 0.5,
 	windDamp: 0.02,
+
+	gust_amp_x: 8,
+	gust_amp_y: 4,
+	gust_lpass: 0.002,
 	
 	flapV: 2,
 	flapC: 0.975,
@@ -578,11 +582,9 @@ function move(){
 		}
 		
 		////wander////
-		var gust_amp_x = 15;
-		var gust_amp_y = 8;
-		var ceff_LP = 0.002;
-		atokirina.gust_x = ceff_LP * gust_amp_x * 2 * (Math.random() - 0.5) + (1-ceff_LP) * atokirina.gust_x;
-		atokirina.gust_y = ceff_LP * gust_amp_y * 2 * (Math.random() - 0.5) + (1-ceff_LP) * atokirina.gust_y;
+		
+		atokirina.gust_x = setting.gust_lpass * setting.gust_amp_x * 2 * (Math.random() - 0.5) + (1-setting.gust_lpass) * atokirina.gust_x;
+		atokirina.gust_y = setting.gust_lpass * setting.gust_amp_y * 2 * (Math.random() - 0.5) + (1-setting.gust_lpass) * atokirina.gust_y;
 		
 		dvx = setting.windVecX + atokirina.gust_x - atokirina.vx;
 		dvy = setting.windVecY + atokirina.gust_y - atokirina.vy;
