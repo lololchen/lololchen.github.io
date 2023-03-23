@@ -78,6 +78,9 @@
             <!-- added content -->
             {% if post.slide %}
             <div class="bxslider">
+              {% if post.atokirina %}
+              {% include atokirina_content.html %}
+              {% endif %}
               {% assign img_count = {{post.slide}} %}
               {% for i in (1..img_count) %}
                 <img src="../img/smallProject_img/{{ post.slide-img }}{{i}}.jpg" alt="{{ post.alt }}">

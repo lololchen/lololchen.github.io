@@ -2,11 +2,15 @@
 layout: default
 modal-id: 6
 date: 2015-05-01
-#slide: 1
+
+slide: 1
 slide-img: KinectAtokirinal
-img: KinectAtokirinal1.png
+atokirina: atokirina_content.html
+img: KinectAtokirinal1.jpg
+
 alt: image-alt
 project-date: May 2015
 category: smallProject
 description: KinectAtokirinal
+
 ---
