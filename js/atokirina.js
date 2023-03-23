@@ -173,8 +173,8 @@ function init(){
 		mouseFlag = true;
 		scaleX = canvasMonitor.width / canvasMonitor.offsetWidth;
 		scaleY = canvasMonitor.height / canvasMonitor.offsetHeight;
-		mouseX = e.offsetX;
-		mouseY = e.offsetY;
+		mouseX = e.offsetX * scaleX;
+		mouseY = e.offsetY * scaleY;
 	});
 	
 	canvasMonitor.addEventListener('mousedown', function(e){
