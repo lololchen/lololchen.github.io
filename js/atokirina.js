@@ -171,6 +171,8 @@ function init(){
 
 	canvasMonitor.addEventListener('mousemove', function(e){
 		mouseFlag = true;
+		scaleX = canvasMonitor.width / canvasMonitor.offsetWidth;
+		scaleY = canvasMonitor.height / canvasMonitor.offsetHeight;
 		mouseX = e.offsetX;
 		mouseY = e.offsetY;
 	});
