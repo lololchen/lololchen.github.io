@@ -2,8 +2,9 @@
 layout: default
 modal-id: 7
 date: 2020-12-01
-slide: 2
+#slide: 0
 slide-img: ActiveAero
+#animation: ActiveAero1.gif
 img: ActiveAero1.gif
 alt: image-alt
 project-date: Dec. 2020

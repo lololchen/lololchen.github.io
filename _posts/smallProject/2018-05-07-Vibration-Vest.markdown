@@ -3,7 +3,7 @@ layout: default
 modal-id: 5
 date: 2018-04-01
 
-slide: 3
+slide: 4
 slide-img: VibrationVest
 #size: hor
 img: VibrationVest1.jpg
