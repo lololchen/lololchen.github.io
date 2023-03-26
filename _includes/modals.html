@@ -31,6 +31,13 @@
             {% if post.description %}
               <p>{{ post.description }}</p>
             {% endif %}
+            
+            <div class="modal-bullet">
+              {% if post.bullet %}
+                <ul>{{ post.bullet }}</ul>
+              {% endif %}
+            </div>
+
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
@@ -97,6 +104,13 @@
             {% if post.description %}
               <p>{{ post.description }}</p>
             {% endif %}
+
+            <div class="modal-bullet">
+              {% if post.bullet %}
+                <ul>{{ post.bullet }}</ul>
+              {% endif %}
+            </div>
+
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
@@ -114,6 +128,7 @@
               </li>
               {% endif %}
             </ul>
+
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>
