@@ -55,11 +55,11 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Earth
-  - line: Solar System
+  - line: Germany / Taiwan
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'A big thank you to <a href="http://startbootstrap.com">Start Bootstrap</a> for inspiring and empowering the creation of this personal page!'
+#credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
