@@ -1,8 +1,8 @@
 # Site settings
 title: Lolol Chen
-email: l.cheng@sonnenwagen.org
+email: lo.chen.cheng@rwth-aachen.de
 url: https://lololchen.github.io
-description: "LololChen's Profolio" 
+description: "LololChen's Portfolio" 
 #"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: 
 #"your keywords, separated by commas"
@@ -58,7 +58,7 @@ address:
   - line: Germany / Taiwan
 
 # Credits content
-credits: 'A big thank you to <a href="http://startbootstrap.com">Start Bootstrap</a> for inspiring and empowering the creation of this personal page!'
+credits: 'A big thank you to Start Bootstrap for inspiring and empowering the creation of this personal page! <a href="http://startbootstrap.com">Start Bootstrap</a>'
 #credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings

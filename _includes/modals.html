@@ -88,13 +88,24 @@
               {% if post.atokirina %}
               {% include atokirina_content.html %}
               {% endif %}
-              {% if post.animation %}
-              <img src="../img/smallProject_img/{{ post.animation }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+              <!--{% if post.animation %}
+                <img src="../img/smallProject_img/{{ post.slide-ani }}{{i}}.gif" class="img-responsive img-centered" alt="{{ post.alt }}">
+              {% endif %}-->
+              {% if post.slide-ani %}
+                {% assign img_count = {{post.slide}} %}
+                {% for i in (1..img_count) %}
+                  <img src="../img/smallProject_img/{{ post.slide-ani }}{{i}}.gif" class="img-responsive img-centered" alt="{{ post.alt }}">
+                {% endfor %}
+              {% else %}
+                {% assign img_count = {{post.slide}} %}
+                {% for i in (1..img_count) %}
+                  <img src="../img/smallProject_img/{{ post.slide-img }}{{i}}.jpg" alt="{{ post.alt }}">
+                {% endfor %}
               {% endif %}
-              {% assign img_count = {{post.slide}} %}
+              <!--{% assign img_count = {{post.slide}} %}
               {% for i in (1..img_count) %}
                 <img src="../img/smallProject_img/{{ post.slide-img }}{{i}}.jpg" alt="{{ post.alt }}">
-              {% endfor %}
+              {% endfor %}-->
             </div>
             {% else %}
               <img src="../img/smallProject_img/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
