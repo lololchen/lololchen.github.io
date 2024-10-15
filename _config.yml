@@ -30,9 +30,10 @@ disqus_shortname: LololChen
 color:
   primary: 2c3e50 #original "18bc9c" #80B3FF
   primary-rgb: "44, 62, 80" #"24,288,156" #"128,179,255", conversion of color representation
+  primary-light: b4d2ff # custom link color, light blue
   secondary: 2c3e50 #FD6E8A, bottom
   secondary-dark: 233140 #A2122F, bottom bottom
-
+  
 # Footer settings
 footer:
   copyright: Lolol Chen
@@ -58,7 +59,7 @@ address:
   - line: Germany / Taiwan
 
 # Credits content
-credits: 'A big thank you to Start Bootstrap for inspiring and empowering the creation of this personal page! <a href="http://startbootstrap.com">Start Bootstrap</a>'
+credits: 'A big thank you to <a href="http://startbootstrap.com">Start Bootstrap</a> for inspiring and empowering the creation of this personal page!'
 #credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
