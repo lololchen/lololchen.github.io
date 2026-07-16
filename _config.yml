@@ -2,13 +2,13 @@
 title: Lolol Chen
 email: lo.chen.cheng@rwth-aachen.de
 url: https://lololchen.github.io
-description: "LololChen's Portfolio" 
+description: "LololChen's portfolio -- violin robot, humanoid robot, solar racing car, exoskeleton, metal 3D printing, and more!" 
 #"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: 
+keywords: violin_robot, humanoid_robot, solar_car, exoskeleton, metal_3d_printing
 #"your keywords, separated by commas"
-skills: "Automation Engineering M.Sc. Student | Hobby Industrial Designer"
+skills: "From Solar Cars to Humanoid Robots"
 #"Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+meta_author: lololchen
 
 # Google webmaster tools
 google_verify:
@@ -59,7 +59,7 @@ address:
   - line: Germany / Taiwan
 
 # Credits content
-credits: 'A big thank you to <a href="http://startbootstrap.com">Start Bootstrap</a> for inspiring and empowering the creation of this personal page!'
+credits: 'A big thank you to <a href="http://startbootstrap.com">Start Bootstrap</a> for empowering the creation of the page!'
 #credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
